@@ -1,7 +1,7 @@
 Summary:
 This Java program utilizes the functionality of Timer, TimerTask, Calendar, ArrayList, and Thread objects.
 When started, a matrix of 8 rows with 10 numbers each (1-80) appears and the timer starts generating a random number
-from 1-80 every 5 seconds. Once a number is generated, the program checks if that number exists in the ArrayList and if it's not,
+from 1-80 every 5 seconds. Once a number is generated, the program checks if that number exists in the ArrayList and if not,
 it adds the number to it and prints it in the console. Then, the program checks the size of the ArrayList and if it is of size 20
                      ------------------------------------------------------------------------------
 ThreadOne class:
