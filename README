@@ -1,18 +1,21 @@
-Summary:
+### Summary:
+
 This Java program utilizes Timer, TimerTask, Calendar, ArrayList, and Thread objects. Every round of the Lottery
 lasts 5 minutes and when started, a matrix of 8 rows with 10 numbers each (1-80) appears and the timer starts generating
 a random number from 1-80 every 5 seconds. Once a number is generated, the program checks if that number exists in the
 ArrayList and if not, it adds the number to the ArrayList and prints it in the console. Then, the program checks the
 size of the ArrayList and if it is of size 20, the thread sleeps for the remaining time until a new round starts.
 With the end of the sleep() method the ArrayList is cleared empty in order to accept new values.
-                     ------------------------------------------------------------------------------
-ThreadOne class:
+                
+                
+#### ThreadOne class:
 This class extends the Thread object just so we can use the sleep method in order to delay the restarting of the thread.
 Then, a Timer is created in order to generate a random number every 5 seconds, and an ArrayList in order to store the
 random numbers created. This class utilizes the ArrayList, List, Timer, TimerTask, and Thread Java Objects
 found in java.util package.
-                     ------------------------------------------------------------------------------
-MainClass class:
+                     
+                     
+#### MainClass class:
 In the main method we create a static void in order to show the grid with the 80 numbers. Then, inside the main method
 we create a 2 dimensional array and call the ShowGrid() method with it as a parameter in order to display the grid of
 numbers in the console. Moving on, with the use of the Calendar Object we set a specific hour of the day that we want
